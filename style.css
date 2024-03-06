@@ -1,46 +1,26 @@
-.madimi-one-regular {
-  font-family: "Madimi One", sans-serif;
-  font-weight: 400;
+#anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 700;
   font-style: normal;
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
 }
-h1{
-  font-size: 50px;
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/slide-2.png);
+  background-size: cover;
+  background-position: center;
 }
-h2{
-  font-size: 30px;
-}
-.flex{
+nav{
   display: flex;
-  padding: 5%;
-
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
-.half-width{
-  width: 50%;
-}
-img{
-  width: 70%;
-  border-radius: 50%;
-}
-.link{
-  text-decoration: none;
-  padding: 10px 50px;
-  border-radius: 10px;
-  background-image: linear-gradient(blue,blueviolet);
-  color:aliceblue;
-  font-weight: 700;
-}
-.black{
-  color: rgb(0, 0, 0);
-}
-.h{
+#logo{
   color: aliceblue;
-}
-.top-bar{
-  background-image: url(img/wave.svg);
-  background-repeat: no-repeat;
-}
-.Speicial{
-  text-align: center;
-  padding: 30px;
 }
